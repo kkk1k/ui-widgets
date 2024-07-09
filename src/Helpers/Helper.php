@@ -6,6 +6,6 @@ function code_view($code) {
     $code = str_replace(">","&gt;",$code);
 
     $code = str_replace("\"","&quot",$code);
-
+    
     return $code;
 }
